@@ -2,6 +2,7 @@ package training.sort;
 
 public class InsertionSort {
 
+    // the idea is to insert unsorted elem at the correct position in sorted partition
     public static void sort(int[] array) {
         // sorted partition starts with only element at index 0
         // unsorted partition starts with index 1 at the beginning and is decreased with each iteration

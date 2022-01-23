@@ -2,6 +2,7 @@ package training.sort;
 
 public class BubbleSort {
 
+    // the idea is to move max element (acts like a bubble) to the end of the array
     public static void sort(int[] intArray) {
         // current i index will hold max element from unsorted elements
         for (int i = intArray.length - 1; i > 0; i--) {
